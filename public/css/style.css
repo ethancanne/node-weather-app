@@ -1,0 +1,156 @@
+body{
+    color: rgb(37, 37, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+    background-image: url(../images/double-bubble-outline.png);
+    background-size: contain;
+    background-position: contain;
+}
+
+/*Header*/
+
+header{
+    color: rgb(37, 37, 37);
+}
+
+#headerMain{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px 0 10px;
+    height: 80px;
+}
+
+#headerMain h1{
+    width: 100px;
+    font-size: 20px;
+    margin-block: 0;
+    float: left;
+}
+
+nav{
+    width: auto;
+    height: 100%;
+    text-align: center;
+    float: right;
+    display: grid;
+    place-items: center;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-left: whitesmoke 1px solid;
+    padding-left: 20px;
+
+    
+}
+ul{padding-inline: 0;}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+
+#pageTitle{
+    margin-block: 0;
+    background-color: rgb(233,237,238);
+    font-size: 15px;
+    color: rgb(52, 83, 119);
+    text-align: left;
+    padding: 10px;
+    height: 20px;
+    border-bottom:  rgb(240, 240, 240) 1px solid;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.15) inset;
+    z-index: 0;
+}
+
+/* Content */
+img{
+    width: 100px;
+}
+
+#content{
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 70px;
+
+    overflow: auto;
+}
+
+#content h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  button[type=submit] {
+    width: 50%;
+    background-color: rgb(52, 83, 119);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+
+/* Weather Content */
+.weather-content.showing{
+    margin-top: 50px;
+    padding: 10px 10px 20px 20px;
+    width: 90%;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+}
+
+.weather-content.error{
+    background-color: rgb(148, 86, 75);
+    color: white;
+}
+
+#w-msg-one{
+    font-weight: bolder;
+}
+
+
+
+#w-msg-two{
+    text-emphasis: all;
+}
+
+
+/*Footer*/
+footer{
+    position: fixed;
+    background-color: rgb(233,237,238);
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 7px;
+    padding: 20px 0 20px 0;
+
+    border-top: rgb(224, 224, 224) 1px solid;
+    border-bottom: rgb(70, 115, 167) 5px solid;
+
+}

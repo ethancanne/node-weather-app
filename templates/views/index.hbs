@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+        {{>header}}
+        <div id="content">
+            <h1>Seach below for weather</h1>
+            <form action="">
+                <input type="text" placeholder="21912">
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="weather-content">
+                <p id="w-msg-one"></p>
+                <p id="w-msg-two"></p>
+            </div>
+        </div>
+        {{>footer}}
+    </body>
+
+    <script src="/js/main.js"></script>
+</html>
