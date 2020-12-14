@@ -76,10 +76,9 @@ img{
 }
 
 #content{
-    max-width: 90vw;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 20px;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 
     overflow: auto;
 }
@@ -117,7 +116,7 @@ input[type=text] {
 /* Weather Content */
 .weather-content.showing{
     margin-top: 50px;
-    padding: 10px 10px 20px 20px;
+    padding: 10px 5% 10px 5%;
     width: 90%;
     background-color: whitesmoke;
     border: 1px solid #ccc;

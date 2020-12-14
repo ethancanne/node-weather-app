@@ -20,7 +20,7 @@ weatherForm.addEventListener("submit", (e)=>{
 
 
 
-    fetch(`http://localhost:3000/weather?address=${searchQuery.value}`).then((res)=>{
+    fetch(`/weather?address=${searchQuery.value}`).then((res)=>{
         res.json().then((data)=>{
             if (data.error){
                 weatherContent.classList.toggle("error")
