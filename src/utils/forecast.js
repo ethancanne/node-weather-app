@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback)=>{
                 callback("Cannot satisfy the weather request: unable to find the provided location.")
             }else{
                 const current = body.current;
-                callback(undefined, `It is currently ${current.temperature} degrees outside, but it feels like ${current.feelslike} degrees, with ${current.weather_descriptions[0]}. There is a ${current.precip}% chance of rain.`)
+                callback(undefined, `It is currently ${current.temperature} degrees outside, but it feels like ${current.feelslike} degrees, with ${current.weather_descriptions[0]}. Wind gusts are up to ${current.wind_speed}mph.`)
             }
         })
 }
